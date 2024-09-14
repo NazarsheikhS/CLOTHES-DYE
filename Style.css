@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    border: none;
+    height: 10vh;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    
+}
+.navbar .link{
+    height: 10vh;
+    width: 60%;
+}
+.navbar .logo{
+    background-color: none;
+    height: 10vh;
+    width: 40%;
+    padding-left: 15px;
+    
+}
+.navbar  ul {
+    background-color: none;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 10px;
+}
+
+.main h1{
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+}
+.main p{
+    color: white;
+    font-size: 25px;
+}
+.main button{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    height: 5vh;
+    width: 15%;
+}
+ .main div img{
+display: block;
+margin: auto;
+ }
+
+.navbar .logo img{
+    height: 8vh;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card {
+    display: flex;
+    
+
+}
+
+.card img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 10px auto;
+}
+ 
+
+.main{
+    border: none;
+    height: 90vh;
+    width: 100%;
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+ 
+
+.last-footer {
+    background-color:teal;
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+  .social {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .media p {
+    margin-top: 25px;
+    color: white;
+    font-family: cursive;
+    font-size: 12px;
+  }
+  .media i {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .copy {
+    margin-left: 40px;
+  }
+  .media img {
+    padding-left: 250px;
+  }
+  .about-all {
+    margin-top: 2rem;
+  }
+  th {
+    text-align: left;
+  }
+  td {
+    font-size: 1rem;
+    color: #666;
+    padding: 0.4rem;
+  }
+  th:nth-child(1) {
+    width: 40%;
+    text-align: justify;
+  }
+  table {
+    background-color:#f8f8f8;
+    height: 15rem;
+    width: 70%;
+    margin: auto;
+  }
+  hr {
+    margin-top: 0.3rem;
+    width: 15%;
+    height: 0.2rem;
+    background-color: red;
+  }

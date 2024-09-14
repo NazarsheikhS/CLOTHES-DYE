@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="shortcut icon" href="your-website-logo" type="image/x-icon">
+    <link rel="stylesheet" href="./Send.css">  <!-- External CSS file -->
+</head>
+<body>                        
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <div class="form-content">
+            <legend>Contact Us</legend>
+            
+            <!-- Hidden inputs for handling form submission -->
+            <input type="hidden" name="access_key" value="32b3ba57-1df1-4b7b-95b4-fe5c9c16c5c5">
+            <input type="hidden" name="redirect" value="contact-thankyou-page">
+            <input type="hidden" name="subject" value="Hey Nazar, New feedback for your website">
+    
+            <!-- Name input field -->
+            <div class="name">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+    
+            <!-- Email input field -->
+            <div class="email">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+
+            <!-- Mobile number input field -->
+            <div class="phone">
+                <input type="tel" name="mobile" placeholder="Your Mobile Number" required pattern="[0-9]{10}">
+            </div>
+
+            <!-- Colour input field -->
+
+            <div class="phone"></div>
+                <input type="color" name="clr" style="height: 50px;">
+            </div>
+    
+            <!-- Message input field -->
+            <div class="msg">
+                <input type="text" name="Message" placeholder="Your Message" style="height: 60px;">
+            </div>
+    
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </div>
+    </form>   
+</body>
+</html>
